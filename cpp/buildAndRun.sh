@@ -1,9 +1,8 @@
 cd app
-cmake .
-make
+./buildVanillaApp.sh
 cd ..
 cd intercept-library
 cmake .
 make
 cd ..
-LD_PRELOAD=$PWD/intercept-library/MethodsCallInterceptLibrary/libMethodsCallInterceptLibrary.so ./app/MethodsCallInterceptTestApp/MethodsCallInterceptTestApp
+LD_PRELOAD=$PWD/intercept-library/MethodsCallInterceptLibrary/libMethodsCallInterceptLibrary.so ./app/app/MethodsCallInterceptTestApp/MethodsCallInterceptTestApp

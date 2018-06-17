@@ -1,6 +1,10 @@
 LD_PRELOAD trick
 
-c example based on Rafał Cieślak's blog post, entire code copied:
+C example based on Rafał Cieślak's blog post, entire code copied:
 https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/
 
  
+C++ example based on:
+https://gist.github.com/mooware/1174572
+https://www.osletek.com/pg/150/Intercepting_C++_functions_using_LD_PRELOAD
+https://reverseengineering.stackexchange.com/questions/185/how-do-i-add-functionality-to-an-existing-binary-executable?newreg=accd1358d5cc4d75b7fcac2a4ba37825
