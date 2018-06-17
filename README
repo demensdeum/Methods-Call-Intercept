@@ -1,0 +1,6 @@
+LD_PRELOAD trick
+
+c example based on Rafał Cieślak's blog post, entire code copied:
+https://rafalcieslak.wordpress.com/2013/04/02/dynamic-linker-tricks-using-ld_preload-to-cheat-inject-features-and-investigate-programs/
+
+ 
